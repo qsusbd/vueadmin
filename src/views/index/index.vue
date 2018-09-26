@@ -46,6 +46,8 @@
         </Header>
         <Content :style="{margin: '20px', background: '#f5f7f9', minHeight: 'auto'}">
           <home></home>
+          <economy></economy>
+
         </Content>
       </Layout>
     </Layout>
@@ -56,6 +58,7 @@
 </style>
 <script>
 import home from '../../views/home/index'
+import economy from '../../views/economy/index'
 export default {
   name: 'index',
   data () {
@@ -77,7 +80,8 @@ export default {
     // }
   },
   components: {
-    home
+    home,
+    economy
   }
 }
 

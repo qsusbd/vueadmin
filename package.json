@@ -11,6 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@antv/data-set": "^0.9.6",
     "echarts": "^4.2.0-rc.1",
     "iview": "^3.1.1-rc.1",
     "viser-vue": "^2.3.2",
